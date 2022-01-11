@@ -1,0 +1,28 @@
+
+
+/* backup for first version of table
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+*/
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tasks {
+    display: inline-block;
+    border: 2px solid red;
+    align-content: stretch;
+}
+
+
+.tasks-child {
+    border: 2px solid red;
+}
