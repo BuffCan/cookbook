@@ -1,28 +1,111 @@
 
+/* Body Styling */
 
-/* backup for first version of table
-.table {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+body {
+    background-color: #F6EEE5;
 }
-*/
 
+/* Navbar Styling */
+
+.container-fluid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    opacity: 1;
+    background-color: #85bbbd;
+}
+
+/* Card/ Card Container Styling */
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
 
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    padding-top: 300px;
+    align-content: center;
+    width: 40%;
 }
 
-.tasks {
-    display: inline-block;
-    border: 2px solid red;
-    align-content: stretch;
+.card-img-top {
+    padding: 20px;
 }
 
-
-.tasks-child {
-    border: 2px solid red;
+.header-text {
+    padding: 20px;
 }
+
+/* Table Styling */
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+.instructions {
+      padding: 5
+  }
+
+/* Responsiveness 
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Footer Styling */
+
+.footer-container {
+    background-color: #F4D9BC;
+}
+
+.footer-box {
+    box-sizing: border-box;
+    padding: 102px;
+    margin-top: 300px;
+    border-top: 2px solid grey;
+}
+
